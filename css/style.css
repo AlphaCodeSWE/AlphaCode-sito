@@ -1,16 +1,21 @@
 :root {
-  /* Palette con Grigio Ardesia */
-  --primary-bg: #708090;       /* Grigio Ardesia per header, footer e nav */
-  --hover-bg: #5f7284;         /* Variante più scura per hover */
-  --secondary-bg: #555555;     /* Colore secondario */
-  --primary-text: #222222;     /* Testo principale */
-  --light-text: #f5f5f5;       /* Testo su sfondo scuro */
-  --accent-color: #708090;     /* Colore principale per i bottoni */
-  --accent-hover: #5f7284;     /* Hover su bottoni */
-  --active-color: #a5a5a5;     /* Colore per link attivi */
-  --visited-color: #7a7a7a;    /* Colore per link visitati */
-  --background: #e0e0e0;       /* Sfondo generale */
-  --link-default: #708090;     /* Colore predefinito per i link */
+  /*  Grigio Ardesia Elegante */
+  --primary-bg: #708090;        /* Grigio Ardesia per header, footer e nav */
+  --hover-bg: #5a6978;          /* Hover leggermente più scuro */
+  --secondary-bg: #808a96;      /* Secondario */
+  --primary-text: #222222;      /* Testo principale */
+  --light-text: #ffffff;        /* Testo chiaro su sfondo scuro */
+  --accent-color: #a0b1c5;      /* Accento per bottoni e link */
+  --accent-hover: #8897a8;      /* Hover del pulsante Release */
+  --active-color: #b3b2ad;      /* Link attivi */
+  --visited-color: #7a7a7a;     /* Link visitati */
+  --background: #d0d4d8;        /* Sfondo generale più chiaro */
+  --link-default: #3a3a3a;      /* Colore default link */
+
+  /* 🔹 Fix visibilità pulsante Release */
+  --button-bg: #a0b1c5;         /* Colore base del pulsante */
+  --button-hover-bg: #5a6978;   /* Hover con buon contrasto */
+  --button-text: #ffffff;       /* Testo sempre visibile */
 }
 
 * {
