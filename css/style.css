@@ -29,12 +29,15 @@ body {
 main {
   flex: 1 0 auto;
 }
+/* HEADER */
 .main-header {
   background: var(--primary-bg);
   color: var(--light-text);
   padding: 1rem;
   text-align: center;
 }
+/* Solo la home (index.html) avrà l’<img>, 
+   le altre pagine non lo inseriranno nell’header */
 .main-header img {
   max-width: 150px;
   height: auto;
@@ -44,6 +47,7 @@ main {
 .main-header h1 {
   margin-bottom: 0.5rem;
 }
+/* NAVIGAZIONE */
 .main-nav ul {
   list-style: none;
   display: flex;
@@ -63,11 +67,13 @@ main {
 .main-nav ul li a.active {
   background: var(--hover-bg);
 }
+/* CONTENITORE GENERALE */
 .container {
   max-width: 900px;
   margin: 2rem auto;
   padding: 0 1rem;
 }
+/* FOOTER */
 .main-footer {
   background: var(--primary-bg);
   color: var(--light-text);
@@ -82,6 +88,7 @@ main {
 .main-footer a:hover {
   text-decoration: underline;
 }
+/* SEZIONE CONTATTI E CHI-SIAMO */
 .section-contact h2,
 .section-chi-siamo h2 {
   text-align: center;
@@ -89,6 +96,7 @@ main {
   color: var(--primary-bg);
   margin-bottom: 1.5rem;
 }
+/* GRIGLIA TEAM (BIG e 3x2) */
 .team-big-cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -146,6 +154,7 @@ main {
   text-decoration: underline;
   color: var(--hover-bg);
 }
+/* SEZIONE GLOSSARIO */
 .section-glossary {
   margin-top: 2rem;
 }
@@ -197,6 +206,7 @@ main {
   line-height: 1.5;
   color: #555;
 }
+/* SEZIONE DOCUMENTI (Candidatura, RTB, PB, …) */
 .section-doc h2 {
   text-align: center;
   font-size: 2rem;
@@ -233,7 +243,7 @@ main {
   border: 1px solid #ddd;
   padding: 1rem;
   border-radius: 0.5rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 .doc-card h3 {
   margin-bottom: 0.5rem;
@@ -265,6 +275,7 @@ main {
   margin-left: 1rem;
   margin-top: 0.5rem;
 }
+/* SEZIONE HERO (HOME) */
 .hero {
   text-align: center;
   padding: 4rem 1rem;
@@ -293,6 +304,7 @@ main {
 .hero a:hover {
   background: var(--hover-bg);
 }
+/* HOME: CARD ORIZZONTALI */
 .home-cards-container {
   display: flex;
   flex-direction: column;
@@ -305,7 +317,7 @@ main {
   background: var(--light-text);
   border: 1px solid #ddd;
   border-radius: 0.5rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   padding: 1.5rem;
 }
 .horizontal-card .card-badge {
@@ -351,6 +363,7 @@ main {
 .horizontal-card .card-content a.btn:hover {
   background: var(--hover-bg);
 }
+/* SEZIONE CONTATTI (GRADIENT) */
 .contact-section {
   background: linear-gradient(135deg, #7f5a83, #0d324d);
   padding: 3rem 1rem;
@@ -417,6 +430,7 @@ contact-form textarea {
 .submit-btn:hover {
   opacity: 0.9;
 }
+/* LINK GLOBALI */
 a {
   color: var(--link-default);
   transition: color 0.3s;
