@@ -1,14 +1,18 @@
 :root {
-  --primary-bg: #002B5B;
-  --hover-bg: #004080;
-  --secondary-bg: #0055AA;
-  --primary-text: #333333;
-  --light-text: #ffffff;
-  --active-color: #ff0000;
-  --visited-color: #551A8B;
-  --background: #f9f9f9;
-  --link-default: #002B5B;
+  /* Palette con Grigio Ardesia */
+  --primary-bg: #708090;       /* Grigio Ardesia per header, footer e nav */
+  --hover-bg: #5f7284;         /* Variante più scura per hover */
+  --secondary-bg: #555555;     /* Colore secondario */
+  --primary-text: #222222;     /* Testo principale */
+  --light-text: #f5f5f5;       /* Testo su sfondo scuro */
+  --accent-color: #708090;     /* Colore principale per i bottoni */
+  --accent-hover: #5f7284;     /* Hover su bottoni */
+  --active-color: #a5a5a5;     /* Colore per link attivi */
+  --visited-color: #7a7a7a;    /* Colore per link visitati */
+  --background: #e0e0e0;       /* Sfondo generale */
+  --link-default: #708090;     /* Colore predefinito per i link */
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -29,6 +33,7 @@ body {
 main {
   flex: 1 0 auto;
 }
+
 /* HEADER */
 .main-header {
   background: var(--primary-bg);
@@ -36,8 +41,6 @@ main {
   padding: 1rem;
   text-align: center;
 }
-/* Solo la home (index.html) avrà l’<img>, 
-   le altre pagine non lo inseriranno nell’header */
 .main-header img {
   max-width: 150px;
   height: auto;
@@ -47,6 +50,7 @@ main {
 .main-header h1 {
   margin-bottom: 0.5rem;
 }
+
 /* NAVIGAZIONE */
 .main-nav ul {
   list-style: none;
@@ -67,12 +71,14 @@ main {
 .main-nav ul li a.active {
   background: var(--hover-bg);
 }
+
 /* CONTENITORE GENERALE */
 .container {
   max-width: 900px;
   margin: 2rem auto;
   padding: 0 1rem;
 }
+
 /* FOOTER */
 .main-footer {
   background: var(--primary-bg);
@@ -88,6 +94,7 @@ main {
 .main-footer a:hover {
   text-decoration: underline;
 }
+
 /* SEZIONE CONTATTI E CHI-SIAMO */
 .section-contact h2,
 .section-chi-siamo h2 {
@@ -96,6 +103,7 @@ main {
   color: var(--primary-bg);
   margin-bottom: 1.5rem;
 }
+
 /* GRIGLIA TEAM (BIG e 3x2) */
 .team-big-cards {
   display: grid;
@@ -154,6 +162,7 @@ main {
   text-decoration: underline;
   color: var(--hover-bg);
 }
+
 /* SEZIONE GLOSSARIO */
 .section-glossary {
   margin-top: 2rem;
@@ -206,6 +215,7 @@ main {
   line-height: 1.5;
   color: #555;
 }
+
 /* SEZIONE DOCUMENTI (Candidatura, RTB, PB, …) */
 .section-doc h2 {
   text-align: center;
@@ -231,7 +241,7 @@ main {
   border: 1px solid #ddd;
   padding: 1rem;
   border-radius: 0.5rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 .doc-grid-bottom {
   display: grid;
@@ -275,11 +285,12 @@ main {
   margin-left: 1rem;
   margin-top: 0.5rem;
 }
+
 /* SEZIONE HERO (HOME) */
 .hero {
   text-align: center;
   padding: 4rem 1rem;
-  background: #f0f4f8;
+  background: #dadada;
   margin-bottom: 2rem;
 }
 .hero h2 {
@@ -292,18 +303,20 @@ main {
   margin-bottom: 2rem;
   color: var(--primary-text);
 }
+/* BOTTONI E LINK ACCENTO */
 .hero a {
   display: inline-block;
   padding: 0.7rem 1.2rem;
-  background: var(--primary-bg);
+  background: var(--accent-color);
   color: var(--light-text);
   text-decoration: none;
   border-radius: 0.3rem;
   transition: background 0.3s;
 }
 .hero a:hover {
-  background: var(--hover-bg);
+  background: var(--accent-hover);
 }
+
 /* HOME: CARD ORIZZONTALI */
 .home-cards-container {
   display: flex;
@@ -354,18 +367,19 @@ main {
 .horizontal-card .card-content a.btn {
   display: inline-block;
   padding: 0.6rem 1.2rem;
-  background: var(--primary-bg);
+  background: var(--accent-color);
   color: var(--light-text);
   text-decoration: none;
   border-radius: 0.3rem;
   transition: background 0.3s;
 }
 .horizontal-card .card-content a.btn:hover {
-  background: var(--hover-bg);
+  background: var(--accent-hover);
 }
+
 /* SEZIONE CONTATTI (GRADIENT) */
 .contact-section {
-  background: linear-gradient(135deg, #7f5a83, #0d324d);
+  background: linear-gradient(135deg, #8e8e8e, #c2c2c2);
   padding: 3rem 1rem;
   color: var(--light-text);
   text-align: center;
@@ -375,7 +389,7 @@ main {
 .contact-section h3 {
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: var(--light-text);
+  color: #f5f5f5;
 }
 .contact-form {
   max-width: 700px;
@@ -396,7 +410,7 @@ main {
 .contact-form label {
   font-weight: bold;
   margin-bottom: 0.3rem;
-  color: var(--light-text);
+  color: #f5f5f5;
 }
 .contact-form input[type="text"],
 .contact-form input[type="email"],
@@ -407,8 +421,8 @@ contact-form textarea {
   outline: none;
   margin-bottom: 0.8rem;
   font-size: 1rem;
-  background: var(--light-text);
-  color: var(--primary-text);
+  background: #f5f5f5;
+  color: #333;
 }
 .contact-form textarea {
   resize: vertical;
@@ -419,8 +433,8 @@ contact-form textarea {
   padding: 0.7rem 1.5rem;
   font-size: 1rem;
   font-weight: bold;
-  color: var(--light-text);
-  background: linear-gradient(90deg, #8a2be2, var(--primary-bg));
+  color: #f5f5f5;
+  background: var(--accent-color);
   border: none;
   border-radius: 4px;
   cursor: pointer;
