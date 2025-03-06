@@ -1,8 +1,10 @@
-Il sito web è così suddiviso:
+# Descrizione
+- Il sito web è così suddiviso:
+    -home page
+    -Candidatura
+    -RTB
+    -PB
+    -Glossario
+    -Contatti
 
--home page
--Candidatura
--RTB
--PB
--Glossario
--Contatti
+
