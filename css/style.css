@@ -474,3 +474,17 @@ a:visited {
 a:active {
   color: var(--active-color);
 }
+.company-logo {
+  max-width: 80%; /* Adatta la dimensione alla card */
+  height: auto;
+  display: block;
+  margin: 1rem auto 0 auto; /* Centra il logo */
+  max-height: 100px; /* Imposta un’altezza massima per evitare che diventi troppo grande */
+  object-fit: contain; /* Mantiene la proporzione senza distorsioni */
+}
+
+
+.company-logo:hover {
+  opacity: 1;  /* Rende il logo pienamente visibile al passaggio del mouse */
+}
+
