@@ -1,17 +1,18 @@
 :root {
-  /* Palette con Grigio Ardesia */
-  --primary-bg: #708090;       /* Grigio Ardesia per header, footer e nav */
-  --hover-bg: #5f7284;         /* Variante più scura per hover */
-  --secondary-bg: #555555;     /* Colore secondario */
-  --primary-text: #222222;     /* Testo principale */
-  --light-text: #f5f5f5;       /* Testo su sfondo scuro */
-  --accent-color: #708090;     /* Colore principale per i bottoni */
-  --accent-hover: #5f7284;     /* Hover su bottoni */
-  --active-color: #a5a5a5;     /* Colore per link attivi */
-  --visited-color: #7a7a7a;    /* Colore per link visitati */
-  --background: #e0e0e0;       /* Sfondo generale */
-  --link-default: #708090;     /* Colore predefinito per i link */
+  /* Neutral Warm Palette */
+  --primary-bg: #404040;       /* Charcoal Gray - Header/Footer */
+  --hover-bg: #6d6d5e;         /* Taupe Gray - Hover states */
+  --secondary-bg: #5a5a4b;     /* Warm Medium Gray - Secondary elements */
+  --primary-text: #333333;     /* Dark Gray - Main text */
+  --light-text: #f5f5eb;       /* Soft Ivory - Text on dark */
+  --accent-color: #404040;     /* Dark Gray - Buttons/Borders */
+  --accent-hover: #5a5a4b;     /* Medium Taupe - Button hover */
+  --active-color: #6d6d5e;     /* Warm Gray - Active links */
+  --visited-color: #5a5a4b;    /* Matching secondary color */
+  --background: #f0f0e6;       /* Warm Off-White - Page background */
+  --link-default: #4a4a4a;     /* Slightly lighter than primary text */
 }
+
 
 * {
   margin: 0;
@@ -293,7 +294,7 @@ main {
 .hero {
   text-align: center;
   padding: 4rem 1rem;
-  background: #dadada;
+  /* background: #dadada; */
   margin-bottom: 2rem;
 }
 .hero h2 {
