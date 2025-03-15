@@ -1,12 +1,23 @@
-# Descrizione
-- Il sito web è così suddiviso:
-    - Home page
-    - Candidatura
-    - RTB
-    - PB
-    - Glossario
-    - Contatti
-  
+# 🌐 Struttura del Sito Web - Gruppo AlphaCode  
+
+Il sito web del **Gruppo AlphaCode** è strutturato nelle seguenti sezioni:  
+
+## 📌 **Sezioni Principali**  
+
+- **🏠 Home Page** → Introduzione e panoramica del progetto.  
+- **📝 Candidatura** → Sezione dedicata alla presentazione delle candidature.  
+- **📄 RTB** → Documentazione relativi alla fase RTB.  
+- **📊 PB** → Documentazione relativi alla fase PB.  
+- **📖 Glossario** → Definizioni e termini utilizzati nel progetto.  
+- **📩 Contatti** → Informazioni di contatto e modalità di comunicazione.  
+
+## 🔗 Accesso al Sito  
+
+Tutti i documenti e le informazioni sono accessibili direttamente dal sito web di **AlphaCode**, dove è possibile consultare:  
+- La **versione aggiornata** della documentazione.  
+- Le **versioni precedenti**, archiviate nella sezione dedicata.  
+- Le **release** intermedie dei documenti nella sezione **Contatti**.
+- 
 # Gruppo 19
 | Nome e Cognome | Matricola  | Mail   |
 |-----------|-------------|-------------|
