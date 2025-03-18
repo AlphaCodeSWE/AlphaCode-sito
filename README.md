@@ -16,7 +16,7 @@ Il sito web del **Gruppo AlphaCode** è strutturato nelle seguenti sezioni:
 Tutti i documenti e le informazioni sono accessibili direttamente dal sito web di [AlphCode](https://alphacodeswe.github.io/AlphaCode-sito/), dove è possibile consultare:  
 - La **versione aggiornata** della documentazione.  
 - Le **versioni precedenti**, archiviate nella sezione dedicata.  
-- Le **release** intermedie dei documenti nella sezione **Contatti**.
+- Le **release** intermedie dei documenti attraverso la sezione **Contatti**.
   
 # Gruppo 19
 | Nome e Cognome | Matricola  | Mail   |
