@@ -247,6 +247,21 @@ main {
   border-radius: 0.5rem;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
+.doc-grid-archive {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.doc-grid-archive .doc-card {
+  width: 100%;
+  text-align: center;
+  background: var(--light-text);
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
 .doc-grid-bottom {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
